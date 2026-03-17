@@ -6,7 +6,7 @@ const LoginPage = () => {
   const [role, setRole] = useState("user"); 
       const router = useRouter();
 
-  const handleSubmit = () => {
+  const handleSubmit = () => { 
     // e.preventDefault();
     alert(`Logged in as ${role}`);
   };
